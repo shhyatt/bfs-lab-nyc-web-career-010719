@@ -3,8 +3,8 @@ function bfs(rootNode, vertices, edges){
 }
 
 function findAdjacent(vertices, edges, nodeName) {
-  edges.find => {
-    edge.includes(nodeName)
+   edges.filter => {
+    return edge.includes(nodeName)
   }
   
   
